@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Grandpage"
+        android:id="@+id/nav_grandpage_item">
+        <menu>
+            <item android:id="@+id/nav_grandpage"
+                android:icon="@drawable/ic_enabled"
+                android:title="Grandpage"/>
+
+        </menu>
+    </item>
+
+    <item android:title="View">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/nav_media"
+                    android:icon="@drawable/ic_grid_black"
+                    android:title="Media"/>
+
+                <item android:id="@+id/nav_text"
+                    android:icon="@drawable/ic_a_text"
+                    android:title="Texts"/>
+
+            </group>
+
+        </menu>
+    </item>
+
+
+</menu>

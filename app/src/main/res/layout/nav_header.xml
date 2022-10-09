@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/sp_pink"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:padding="6dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/my_user_placeholder"
+        android:layout_marginStart="12dp"
+        app:civ_border_overlay="true"
+        app:civ_border_width="3dp"
+        app:civ_border_color="@color/white"
+        android:id="@+id/navHeadProfileImage"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="12dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/epilogue"
+        android:id="@+id/navHeadUsername"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="3dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/navHeadBio"/>
+
+</LinearLayout>

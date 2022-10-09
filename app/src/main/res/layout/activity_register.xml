@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Create your account"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="30dp"
+                    android:textSize="30sp"
+                    android:textColor="?attr/textFillColor"
+                    android:id="@+id/txtCreate"/>
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Fullname"
+                    android:padding="15dp"
+                    android:id="@+id/edtFullName"
+                    android:textColor="?attr/textFillColor"
+                    android:background="@drawable/bg_choose"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Username"
+                    android:padding="15dp"
+                    android:id="@+id/edtUserName"
+                    android:textColor="?attr/textFillColor"
+                    android:background="@drawable/bg_choose"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Username already exists"
+                    android:textColor="@color/sp_red"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="1dp"
+                    android:id="@+id/txtUsernameExists"
+                    android:visibility="gone"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_choose"
+                    android:text="Date of birth"
+                    android:textSize="18sp"
+                    android:id="@+id/btnDateOfBirth"
+                    android:textAllCaps="false"
+                    android:textAlignment="viewStart"
+                    android:padding="10dp"
+                    android:textColor="?attr/textFillColor"
+                    />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Next"
+                    android:id="@+id/btnNext"
+                    android:padding="15dp"
+                    android:background="@drawable/bg_btn_1"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

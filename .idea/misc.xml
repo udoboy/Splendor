@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_a_text.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_a_text_pink.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_add_box.xml" value="0.15" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_addcircle.xml" value="0.15" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_arr_front.xml" value="0.15" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_arrow_down_whitte.xml" value="0.15" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_arrow_front.xml" value="0.15" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_arrow_up_whitte.xml" value="0.15" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_arrowdown.xml" value="0.15" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_arrowup.xml" value="0.15" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_back_arrow.xml" value="0.15" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_camera.xml" value="0.142" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_cancel.xml" value="0.15" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_close.xml" value="0.15" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_comment.xml" value="0.142" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_delete1.xml" value="0.15" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_enabled.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_grid_black.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_grid_pink.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_heart.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_home.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_image.xml" value="0.142" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_imgCamera.xml" value="0.2115" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_imgcamera.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_inbox.xml" value="0.2115" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_like.xml" value="0.142" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_liked_red.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_likewhite.xml" value="0.142" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_m_inbox.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_menu_hor.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_more.xml" value="0.142" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_more_white.xml" value="0.157" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_open_padlock.xml" value="0.2115" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_person .xml" value="0.147" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_pink_cancel.xml" value="0.157" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_pinkcamera.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_play.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_playfilled.xml" value="0.142" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_plus.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_profile.xml" value="0.2115" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_replay.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_rewind_ten.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_save.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_save_filled.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_search.xml" value="0.142" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_talk.xml" value="0.15" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_videocamera.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_white_comment.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_white_like.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_white_pencil.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable-anydpi/ic_white_video_camera.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/appbar_back.xml" value="0.147" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/backgroundplaceholder.xml" value="0.142" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/bg_btn_1.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/bg_btn_2.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/bg_choose.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/bg_circle_image.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/bg_edt.xml" value="0.147" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/bg_edt2.xml" value="0.142" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/bg_edt3.xml" value="0.142" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/bg_message.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/bg_reciever.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/bg_rectangle_image.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/bg_sender.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/circle_bg.xml" value="0.157" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/comment_edt_bg.xml" value="0.142" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/edit_gr.xml" value="0.2115" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2115" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/ic_baseline_attach_file_24.xml" value="0.2115" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.15" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/ic_des_splendor_text.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/ic_loading_progress.xml" value="0.2115" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/ic_splendor_placeholder.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/placeholder.xml" value="0.142" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/post_options.xml" value="0.142" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/drawable/white_circle_bg.xml" value="0.157" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_chat.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_chat_detail.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_comment.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_comment_replies.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_details_activity.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_details_activty.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_edit_profile.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_enable_grandpage.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_follow.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_grand_post.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_grandpage.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_main2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_post.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_post_detail.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_re_direct.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_register2.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_register3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_set_username.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/activity_welcome_page.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/chat_user_item.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/choose_post_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/comment_item.xml" value="0.5" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/comment_reply_item.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/delete_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/enable_grandpage_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/find_people_layout.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/fragment_chat_room.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/fragment_create_caption.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/fragment_grand_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/fragment_grand_notifications.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/fragment_grand_post.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/fragment_grand_profile.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/fragment_grand_search.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/fragment_inbox.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/fragment_notification.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/fragment_post.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/fragment_search.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/fragment_view.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/item_video.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/loading_layout.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/nav_header.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/nav_heder.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/notifications_item.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/placeholderimage.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/post_detail_background_layout.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/post_detail_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/post_dialogue.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/post_item.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/post_item_video.xml" value="1.25" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/profile_post_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/profile_post_item_image.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/profile_post_item_video.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/profile_text_posts.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/reciever_layout.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/sender_layout.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/solid_color_list_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/text_post_item.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/layout/user_item_one.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/menu/appbar_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/menu/nav_drawer_menu.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/Splendor/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.142" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "333436994810",
+    "project_id": "splendor-d6e10",
+    "storage_bucket": "splendor-d6e10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333436994810:android:5da6b61d3a927f069b3543",
+        "android_client_info": {
+          "package_name": "com.example.splendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333436994810-kb9v5l8e9e8o7t88rojra0n2si0krm4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAItskZPLQI_iROk9yVt2jQxeFndMjQpgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333436994810-kb9v5l8e9e8o7t88rojra0n2si0krm4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

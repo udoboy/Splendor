@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.HomeFragment">
+
+
+     <com.google.android.material.appbar.AppBarLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/bar"
+         android:layout_alignParentTop="true"
+         >
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/windowBackground"
+            android:backgroundTint="@color/white"
+
+            >
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:backgroundTint="@color/white"
+              >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentStart="true"
+                   android:gravity="start"
+                   android:orientation="horizontal">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_centerVertical="true"
+                       android:text="Splen"
+                       android:textColor="@color/sp_pink"
+                       android:textSize="20sp"
+                       android:textStyle="bold" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginStart="0.5dp"
+                       android:text="dor"
+                       android:textColor="@color/black"
+                       android:textSize="20sp"
+                       android:textStyle="bold" />
+
+               </LinearLayout>
+
+
+               <ImageView
+                   android:id="@+id/imgInbox"
+                   android:layout_width="25dp"
+                   android:layout_height="25dp"
+                   android:layout_alignParentEnd="true"
+                   android:layout_centerVertical="true"
+                   android:layout_marginEnd="10dp"
+                   android:src="@drawable/ic_m_inbox" />
+
+
+           </RelativeLayout>
+
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+     </com.google.android.material.appbar.AppBarLayout>
+
+    <ProgressBar
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:id="@+id/pFetchingViews"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:id="@+id/lOfflineNot"
+        android:visibility="gone"
+        android:gravity="center"
+        >
+       <ImageView
+           android:layout_width="70dp"
+           android:layout_height="70dp"
+           android:src="@drawable/no_signal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="?attr/textFillColor"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:text="You seem to be offline, please connect your device to the internet and try again"/>
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/parentScroll"
+        android:layout_below="@id/bar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relConnect">
+
+                <TextView
+                    android:id="@+id/txtConnect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="6dp"
+                    android:visibility="gone"
+                    android:text="Connect with people"
+                    android:textColor="?attr/textFillColor" />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/recConnect"
+                    android:layout_below="@id/txtConnect"
+                    />
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewAllPosts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relConnect"
+
+                />
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

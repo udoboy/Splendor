@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        android:layout_alignParentTop="true"
+        android:id="@+id/bar"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/windowBackground"
+            android:id="@+id/toolbar">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/ic_close" />
+
+                <TextView
+                    android:id="@+id/txtSave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="15dp"
+                    android:text="Save"
+                    android:textColor="@color/sp_pink"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bar">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileImage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/my_user_placeholder" />
+
+            <Button
+                android:id="@+id/btnChangeProfileImage"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/profileImage"
+                android:layout_centerHorizontal="true"
+                android:text="Change" />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/btnChangeProfileImage"
+               android:layout_marginTop="20dp"
+               android:orientation="vertical">
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/r1"
+                   >
+
+                   <TextView
+                       android:id="@+id/txtUsername"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginStart="20dp"
+                       android:text="Username"
+                       android:textSize="18sp" />
+
+
+
+
+
+
+                   <EditText
+                       android:id="@+id/edtUserName"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_below="@id/txtUsername"
+                       android:layout_marginStart="20dp"
+                       android:layout_marginTop="-5dp"
+                       android:layout_marginEnd="20dp"
+                       android:backgroundTint="@color/sp_pink"
+                       />
+
+
+
+
+
+               </RelativeLayout>
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="5dp"
+                   >
+
+                   <TextView
+                       android:id="@+id/txtFullName"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginStart="20dp"
+                       android:text="Fullname"
+                       android:textSize="18sp" />
+
+                   <EditText
+                       android:id="@+id/edtFullName"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_below="@id/txtFullName"
+                       android:layout_marginStart="20dp"
+                       android:layout_marginTop="-5dp"
+                       android:layout_marginEnd="20dp"
+                       android:backgroundTint="@color/sp_pink" />
+               </RelativeLayout>
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/r2"
+                   android:layout_marginTop="5dp"
+                   >
+
+                   <TextView
+                       android:id="@+id/txtbio"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginStart="20dp"
+                       android:text="Bio"
+                       android:textSize="18sp" />
+
+                   <EditText
+                       android:id="@+id/edtBio"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_below="@id/txtbio"
+                       android:layout_marginStart="20dp"
+                       android:layout_marginTop="-5dp"
+                       android:layout_marginEnd="20dp"
+                       android:backgroundTint="@color/sp_pink" />
+
+
+               </RelativeLayout>
+
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/txtEnableGrandpage"
+                   android:text="Enable Grandpage"
+                   android:textStyle="bold"
+                   android:textSize="18sp"
+                   android:textColor="@color/sp_light_grey_2"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginTop="20dp"/>
+
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/desc"
+                   android:textSize="13sp"
+                   android:textColor="@color/sp_light_grey_2"
+                   android:layout_marginStart="20dp"/>
+
+
+
+
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="LogOut"
+                   android:textSize="18sp"
+                   android:textColor="@color/sp_red"
+                   android:textStyle="bold"
+                   android:layout_margin="20dp"
+                   android:id="@+id/txtLogout"
+                   />
+
+           </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

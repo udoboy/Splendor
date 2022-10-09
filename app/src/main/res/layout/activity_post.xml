@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        android:layout_alignParentTop="true"
+        android:id="@+id/bar"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/windowBackground"
+            android:id="@+id/toolbar">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/ic_close" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="15dp"
+                    android:text="Post"
+                    android:textColor="@color/sp_pink"
+                    android:id="@+id/txtPost"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bar"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relPhotoPost"
+                android:visibility="gone"
+                >
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/top"
+                    >
+                    <VideoView
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/videpAdded"
+                        android:visibility="gone"
+                        />
+                    <ImageView
+                        android:id="@+id/imgAdded"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_margin="10dp"
+                        android:visibility="gone"/>
+
+                </RelativeLayout>
+
+
+                <com.hendraanggrian.appcompat.widget.SocialAutoCompleteTextView
+                    android:id="@+id/edtDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/top"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="7dp"
+                    android:background="@drawable/bg_edt2"
+                    android:hint="Say something about this Post"
+                    android:padding="6dp"
+                    android:textColor="?attr/textFillColor"
+                    app:hashtagColor="@color/sp_pink"
+                    app:mentionColor="@color/sp_pink" />
+
+                <com.hendraanggrian.appcompat.widget.SocialAutoCompleteTextView
+                    android:id="@+id/edtPostText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/top"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="7dp"
+                    android:textColor="?attr/textFillColor"
+                    android:background="@drawable/bg_edt2"
+                    android:hint="What is on your mind"
+                    android:padding="30dp"
+                    app:hashtagColor="@color/sp_pink"
+                    app:mentionColor="@color/sp_pink"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relPhotoPost"
+                android:layout_marginTop="3dp"
+                android:id="@+id/lChooseBackground"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone"
+
+                >
+
+                <TextView
+                    android:id="@+id/textBackground"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Background"
+                    android:textColor="?attr/textFillColor" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/textBackground"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="90dp"
+                        android:layout_height="100dp"
+                        android:orientation="vertical"
+                        android:id="@+id/lDefaultBackground"
+                        android:layout_margin="10dp"
+                        >
+
+                        <RelativeLayout
+                            android:id="@+id/rDefaultSelected"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bg_choose" />
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/ic_splendor_placeholder"
+                            android:id="@+id/imgDefault"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="6dp"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Default"
+                            android:layout_below="@id/imgDefault"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="?attr/textFillColor"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="90dp"
+                        android:layout_height="100dp"
+                        android:orientation="vertical"
+                        android:id="@+id/lSolid"
+                        android:layout_margin="10dp"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bg_choose"
+                            android:id="@+id/rSolidSelected"
+                            android:visibility="gone"
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="6dp"
+                            android:id="@+id/solidDisplay"
+                            android:background="@color/sp_pink" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Solid"
+                            android:textColor="?attr/textFillColor"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/solidDisplay"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:id="@+id/colorRec"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".PostDetailActivity"
+    android:background="@color/black"
+    android:keepScreenOn="true"
+    android:id="@+id/parent"
+
+    >
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:id="@+id/loadingPdvProgress"/>
+    <com.ortiz.touchview.TouchImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:id="@+id/pdbpostImage"
+        android:visibility="gone"
+        android:transitionName="t1"
+        android:layout_centerInParent="true"
+        android:scaleType="fitCenter"
+        />
+
+    <VideoView
+        android:id="@+id/pdbpostVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/textScroll">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"
+            android:id="@+id/pdvtextPost"
+            android:fontFamily="@font/epilogue"
+            android:padding="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="50dp"
+            android:textSize="18dp"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:textColorLink="@color/sp_blue"
+            />
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <include
+        android:id="@+id/pdbView"
+        layout="@layout/post_detail_background_layout" />
+
+
+</RelativeLayout>
